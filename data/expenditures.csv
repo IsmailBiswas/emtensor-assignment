@@ -1,0 +1,245 @@
+expense_id,dept_id,allocation_id,category,po_id,vendor,amount_inr,expense_date,description,invoice_no,requested_by,approved_by
+EX00200,PMU,AL109,consumables,,Meghdoot Data Systems,17331,2025-10-30,Calibration kits,INV/MEG/44887,R060,R058
+EX00027,CVL,AL005,manpower,,,214000,2025-10-31,Project staff salaries Oct 2025,PAY/CVL/202510,R003,R058
+EX00028,PWR,AL021,manpower,,,254000,2025-10-31,Project staff salaries Oct 2025,PAY/PWR/202510,R009,R058
+EX00029,ENC,AL037,manpower,,,217000,2025-10-31,Project staff salaries Oct 2025,PAY/ENC/202510,R021,R058
+EX00030,SEN,AL053,manpower,,,213000,2025-10-31,Project staff salaries Oct 2025,PAY/SEN/202510,R031,R058
+EX00031,DSP,AL069,manpower,,,346000,2025-10-31,Project staff salaries Oct 2025,PAY/DSP/202510,R044,R058
+EX00032,HYD,AL081,manpower,,,296000,2025-10-31,Project staff salaries Oct 2025,PAY/HYD/202510,R047,R058
+EX00033,PUR,AL093,manpower,,,85000,2025-10-31,Project staff salaries Oct 2025,PAY/PUR/202510,R055,R058
+EX00034,PMU,AL105,manpower,,,87000,2025-10-31,Project staff salaries Oct 2025,PAY/PMU/202510,R059,R058
+EX00156,SEN,AL057,consumables,,Nadi Sensors India,160270,2025-11-05,Mounting hardware,INV/NAD/37831,R031,R024
+EX00155,SEN,AL057,consumables,,Barak Fabricators,113411,2025-11-08,Mounting hardware,INV/BAR/91493,R029,R024
+EX00170,DSP,AL073,consumables,,Pragjyotish Supplies,171913,2025-11-08,Spares,INV/PRA/62585,R038,R036
+EX00153,ENC,AL045,travel,,,137079,2025-11-09,Remote site inspection,INV/GEN/72086,R018,R016
+EX00135,PWR,AL025,consumables,,Luit Infra Builders,55364,2025-11-12,Mounting hardware,INV/LUI/89880,R010,R008
+EX00180,DSP,AL077,travel,,,123796,2025-11-27,Remote site inspection,INV/GEN/55121,R046,R036
+EX00120,CVL,AL009,consumables,,Tezpur Switchgear,146829,2025-11-29,Mounting hardware,INV/TEZ/88054,R004,R001
+EX00164,SEN,AL061,travel,,,76185,2025-11-29,Remote site inspection,INV/GEN/92063,R031,R024
+EX00035,CVL,AL005,manpower,,,214000,2025-11-30,Project staff salaries Nov 2025,PAY/CVL/202511,R002,R058
+EX00036,PWR,AL021,manpower,,,254000,2025-11-30,Project staff salaries Nov 2025,PAY/PWR/202511,R011,R058
+EX00037,ENC,AL037,manpower,,,302000,2025-11-30,Project staff salaries Nov 2025,PAY/ENC/202511,R021,R058
+EX00038,SEN,AL053,manpower,,,510000,2025-11-30,Project staff salaries Nov 2025,PAY/SEN/202511,R024,R058
+EX00039,DSP,AL069,manpower,,,430000,2025-11-30,Project staff salaries Nov 2025,PAY/DSP/202511,R038,R058
+EX00040,HYD,AL081,manpower,,,296000,2025-11-30,Project staff salaries Nov 2025,PAY/HYD/202511,R049,R058
+EX00041,PUR,AL093,manpower,,,127000,2025-11-30,Project staff salaries Nov 2025,PAY/PUR/202511,R055,R058
+EX00042,PMU,AL105,manpower,,,87000,2025-11-30,Project staff salaries Nov 2025,PAY/PMU/202511,R059,R058
+EX00165,SEN,AL061,travel,,,15683,2025-12-05,District coordination meeting,INV/GEN/69522,R034,R024
+EX00219,HYD,AL121,software_licences,,Setu Telemetry,136014,2025-12-05,GIS licence,INV/SET/32352,R051,R047
+EX00160,SEN,AL061,travel,,,87832,2025-12-13,Remote site inspection,INV/GEN/33010,R035,R024
+EX00177,DSP,AL077,travel,,,64155,2025-12-15,District coordination meeting,INV/GEN/3211,R046,R036
+EX00187, HYD ,AL089,travel,,,66539,2025-12-16,Remote site inspection,INV/GEN/29852,R051,R047
+EX00191,PUR,AL097,consumables,,Meghdoot Data Systems,35502,2025-12-16,Spares,INV/MEG/7607,R056,R055
+EX00206,PMU,AL113,travel,,,66070,2025-12-22,District coordination meeting,INV/GEN/8444,R059,R058
+EX00126,CVL,AL013,travel,,,118876,2025-12-24,"NDMA review meeting, New Delhi",INV/GEN/88994,R003,R001
+EX00145,ENC,AL041,consumables,,Barak Fabricators,11778,2025-12-24,Mounting hardware,INV/BAR/66241,R017,R016
+EX00148,ENC,AL041,consumables,,Nadi Sensors India,166386,2025-12-26,Cables & connectors,INV/NAD/90848,R021,R016
+EX00190,HYD,AL089,travel,,,160851,2025-12-27,"NDMA review meeting, New Delhi",INV/GEN/60030,R054,R047
+EX00134,PWR,AL025,consumables,,Agnirodh Fire Safety,81338,2025-12-28,Mounting hardware,INV/AGN/11024,R015,R008
+EX00125,CVL,AL013,travel,,,159298,2025-12-29,District coordination meeting,INV/GEN/73917,R001,R001
+EX00209,PMU,AL113,travel,,,154406,2025-12-29,"NDMA review meeting, New Delhi",INV/GEN/41902,R060,R058
+EX00043,CVL,AL005,manpower,,,214000,2025-12-31,Project staff salaries Dec 2025,PAY/CVL/202512,R004,R058
+EX00044,PWR,AL021,manpower,,,254000,2025-12-31,Project staff salaries Dec 2025,PAY/PWR/202512,R015,R058
+EX00045,ENC,AL037,manpower,,,302000,2025-12-31,Project staff salaries Dec 2025,PAY/ENC/202512,R021,R058
+EX00046,SEN,AL053,manpower,,,510000,2025-12-31,Project staff salaries Dec 2025,PAY/SEN/202512,R027,R058
+EX00047,DSP,AL069,manpower,,,430000,2025-12-31,Project staff salaries Dec 2025,PAY/DSP/202512,R040,R058
+EX00048,HYD,AL081,manpower,,,296000,2025-12-31,Project staff salaries Dec 2025,PAY/HYD/202512,R050,R058
+EX00049,PUR,AL093,manpower,,,127000,2025-12-31,Project staff salaries Dec 2025,PAY/PUR/202512,R055,R058
+EX00050,PMU,AL105,manpower,,,87000,2025-12-31,Project staff salaries Dec 2025,PAY/PMU/202512,R059,R058
+EX00132,PWR,AL025,consumables,,Nadi Sensors India,146549,2026-01-01,Mounting hardware,INV/NAD/43563,R008,R008
+EX00208,PMU,AL113,travel,,,153286,2026-01-05,"NDMA review meeting, New Delhi",INV/GEN/50083,R059,R058
+EX00162,SEN,AL061,travel,,,68825,2026-01-06,"NDMA review meeting, New Delhi",INV/GEN/98448,R034,R024
+EX00140,PWR,AL029,travel,,,135633,2026-01-09,Remote site inspection,INV/GEN/22245,R015,R008
+EX00147,ENC,AL041,consumables,,Luit Infra Builders,166561,2026-01-16,Cables & connectors,INV/LUI/4237,R022,R016
+EX00223,HYD,AL121,software_licences,,Barak Fabricators,221006,2026-01-16,Hydrological model licence,INV/BAR/87227,R050,R047
+EX00184,HYD,AL085,consumables,,Pragjyotish Supplies,47789,2026-01-22,Spares,INV/PRA/30170,R052,R047
+EX00123,CVL,AL009,consumables,,Kamrup Power Systems,26541,2026-01-23,Spares,INV/KAM/64130,R004,R001
+EX00169,DSP,AL073,consumables,,Setu Telemetry,80052,2026-01-24,Calibration kits,INV/SET/66498,R038,R036
+EX00216,DSP,AL117,software_licences,,Setu Telemetry,349630,2026-01-25,SMS gateway licence,INV/SET/66540,R036,R036
+EX00154,SEN,AL057,consumables,,Tezpur Switchgear,142488,2026-01-27,Calibration kits,INV/TEZ/61418,R031,R024
+EX00051,CVL,AL005,manpower,,,299000,2026-01-31,Project staff salaries Jan 2026,PAY/CVL/202601,R002,R058
+EX00052,PWR,AL021,manpower,,,339000,2026-01-31,Project staff salaries Jan 2026,PAY/PWR/202601,R012,R058
+EX00053,ENC,AL037,manpower,,,429000,2026-01-31,Project staff salaries Jan 2026,PAY/ENC/202601,R020,R058
+EX00054,SEN,AL053,manpower,,,595000,2026-01-31,Project staff salaries Jan 2026,PAY/SEN/202601,R032,R058
+EX00055,DSP,AL069,manpower,,,515000,2026-01-31,Project staff salaries Jan 2026,PAY/DSP/202601,R041,R058
+EX00056,HYD,AL081,manpower,,,423000,2026-01-31,Project staff salaries Jan 2026,PAY/HYD/202601,R049,R058
+EX00057,PUR,AL093,manpower,,,127000,2026-01-31,Project staff salaries Jan 2026,PAY/PUR/202601,R057,R058
+EX00058,PMU,AL105,manpower,,,132000,2026-01-31,Project staff salaries Jan 2026,PAY/PMU/202601,R058,R058
+EX00124,CVL,AL009,consumables,,Tezpur Switchgear,125621,2026-01-31,Mounting hardware,INV/TEZ/67758,R006,R001
+EX00144,ENC,AL041,consumables,,Luit Infra Builders,155223,2026-02-02,Mounting hardware,INV/LUI/73635,R023,R016
+EX00007,PWR,AL017,equipment,PO-2026-004,Tezpur Switchgear,1470000,2026-02-07,Advance 30% - Grid supply upgrade,INV/TEZ/26234,R008,R008
+EX00158,SEN,AL057,consumables,,Barak Fabricators,160729,2026-02-09,Cables & connectors,INV/BAR/95867,R031,R024
+EX00001,CVL,AL001,civil_works,PO-2026-001,Luit Infra Builders,997500,2026-02-10,Advance 30% - Control centre & site foundations,INV/LUI/89604,R004,R001
+EX00009,PWR,AL017,equipment,PO-2026-005,Kamrup Power Systems,1428000,2026-02-12,Advance 30% - UPS,INV/KAM/36595,R014,R008
+EX00127,PWR,AL025,consumables,,Kamrup Power Systems,67064,2026-02-12,Mounting hardware,INV/KAM/46134,R010,R008
+EX00211,DSP,AL117,software_licences,,Barak Fabricators,244676,2026-02-12,SMS gateway licence,INV/BAR/5159,R040,R036
+EX00023,SEN,AL049,equipment,PO-2026-014,Setu Telemetry,2835000,2026-02-13,Advance 30% - Telemetry network,INV/SET/67415,R033,R024
+EX00014,ENC,AL033,equipment,PO-2026-008,Barak Fabricators,2414999,2026-02-17,Advance 30% - Enclosure fabrication yard,INV/BAR/76017,R016,R016
+EX00025,DSP,AL065,equipment,PO-2026-015,Meghdoot Data Systems,3360000,2026-02-18,Advance 30% - Data centre,INV/MEG/53423,R044,R036
+EX00115,CVL,AL009,consumables,,Nadi Sensors India,105371,2026-02-21,Spares,INV/NAD/58902,R006,R001
+EX00011,PWR,AL017,equipment,PO-2026-006,Kamrup Power Systems,945000,2026-02-22,Advance 30% - DG backup set,INV/KAM/1934,R011,R008
+EX00224,SEN,AL049,equipment,PO-2026-014,Setu Telemetry,2835000,2026-02-22,Advance 30% - Telemetry network,INV/SET/67415,R033,R024
+EX00196,PUR,AL101,travel,,,21391,2026-02-24,Remote site inspection,INV/GEN/15196,R057,R055
+EX00059,CVL,AL005,manpower,,,299000,2026-02-28,Project staff salaries Feb 2026,PAY/CVL/202602,R007,R058
+EX00060,PWR,AL021,manpower,,,339000,2026-02-28,Project staff salaries Feb 2026,PAY/PWR/202602,R013,R058
+EX00061,ENC,AL037,manpower,,,429000,2026-02-28,Project staff salaries Feb 2026,PAY/ENC/202602,R023,R058
+EX00062,SEN,AL053,manpower,,,595000,2026-02-28,Project staff salaries Feb 2026,PAY/SEN/202602,R035,R058
+EX00063,DSP,AL069,manpower,,,515000,2026-02-28,Project staff salaries Feb 2026,PAY/DSP/202602,R037,R058
+EX00064,HYD,AL081,manpower,,,423000,2026-02-28,Project staff salaries Feb 2026,PAY/HYD/202602,R049,R058
+EX00065,PUR,AL093,manpower,,,127000,2026-02-28,Project staff salaries Feb 2026,PAY/PUR/202602,R055,R058
+EX00066,PMU,AL105,manpower,,,132000,2026-02-28,Project staff salaries Feb 2026,PAY/PMU/202602,R059,R058
+EX00221,HYD,AL121,software_licences,,Meghdoot Data Systems,553675,2026-03-01,Hydrological model licence,INV/MEG/9922,R051,R047
+EX00128,PWR,AL025,consumables,,Barak Fabricators,71247,2026-03-03,Spares,INV/BAR/80737,R012,R008
+EX00149,ENC,AL041,consumables,,Tezpur Switchgear,12751,2026-03-03,Cables & connectors,INV/TEZ/16432,R019,R016
+EX00161,SEN,AL061,travel,,,11629,2026-03-03,District coordination meeting,INV/GEN/33793,R034,R024
+EX00175,DSP,AL073,consumables,,Pragjyotish Supplies,76266,2026-03-09,Calibration kits,INV/PRA/34894,R036,R036
+EX00210,PMU,AL113,travel,,,102272,2026-03-09,District coordination meeting,INV/GEN/16280,R058,R058
+EX00189,HYD,AL089,travel,,,104807,2026-03-12,"NDMA review meeting, New Delhi",INV/GEN/98317,R053,R047
+EX00220,HYD,AL121,software_licences,,Agnirodh Fire Safety,592002,2026-03-12,Hydrological model licence,INV/AGN/83880,R054,R047
+EX00020,SEN,AL049,equipment,PO-2026-012,Nadi Sensors India,6558720,2026-03-13,Advance 30% - River gauge clusters,INV/NAD/53019,R030,R024
+EX00192,PUR,AL097,consumables,,Setu Telemetry,47073,2026-03-13,Spares,INV/SET/11440,R055,R055
+EX00199,PUR,AL101,travel,,,102383,2026-03-18,Remote site inspection,INV/GEN/94104,R057,R055
+EX00204,PMU,AL109,consumables,,Agnirodh Fire Safety,122838,2026-03-19,Cables & connectors,INV/AGN/52737,R058,R058
+EX00218,HYD,AL121,software_licences,,Meghdoot Data Systems,225675,2026-03-21,Hydrological model licence,INV/MEG/18402,R048,R047
+EX00005,CVL,AL001,civil_works,PO-2026-003,Luit Infra Builders,220500,2026-03-26,Advance 30% - Security & CCTV,INV/LUI/22591,R006,R001
+EX00136,PWR,AL025,consumables,,Pragjyotish Supplies,158183,2026-03-27,Mounting hardware,INV/PRA/17548,R013,R008
+EX00236,PWR,AL025,consumables,,Barak Fabricators,45876,2026-03-30,Year-end purchase,INV/BAR/84881,R008,R008
+EX00239,PWR,AL025,consumables,,Pragjyotish Supplies,64181,2026-03-30,Year-end purchase,INV/PRA/18226,R012,R008
+EX00241,PWR,AL025,consumables,,Pragjyotish Supplies,66502,2026-03-30,Year-end purchase,INV/PRA/98159,R010,R008
+EX00242,PWR,AL025,consumables,,Meghdoot Data Systems,47976,2026-03-30,Year-end purchase,INV/MEG/68106,R011,R008
+EX00067,CVL,AL005,manpower,,,299000,2026-03-31,Project staff salaries Mar 2026,PAY/CVL/202603,R005,R058
+EX00068,PWR,AL021,manpower,,,339000,2026-03-31,Project staff salaries Mar 2026,PAY/PWR/202603,R012,R058
+EX00069,ENC,AL037,manpower,,,429000,2026-03-31,Project staff salaries Mar 2026,PAY/ENC/202603,R016,R058
+EX00070,SEN,AL053,manpower,,,595000,2026-03-31,Project staff salaries Mar 2026,PAY/SEN/202603,R035,R058
+EX00071,DSP,AL069,manpower,,,515000,2026-03-31,Project staff salaries Mar 2026,PAY/DSP/202603,R038,R058
+EX00072,HYD,AL081,manpower,,,"₹423,000",2026-03-31,Project staff salaries Mar 2026,PAY/HYD/202603,R052,R058
+EX00073,PUR,AL093,manpower,,,127000,2026-03-31,Project staff salaries Mar 2026,PAY/PUR/202603,R057,R058
+EX00074,PMU,AL105,manpower,,,132000,2026-03-31,Project staff salaries Mar 2026,PAY/PMU/202603,R058,R058
+EX00142,ENC,AL041,consumables,,Agnirodh Fire Safety,179116,2026-03-31,Cables & connectors,INV/AGN/48304,R020,R016
+EX00237,PWR,AL025,consumables,,Pragjyotish Supplies,71824,2026-03-31,Year-end purchase,INV/PRA/84426,R010,R008
+EX00238,PWR,AL025,consumables,,Kamrup Power Systems,40016,2026-03-31,Year-end purchase,INV/KAM/33821,R014,R008
+EX00240,PWR,AL025,consumables,,Setu Telemetry,61055,2026-03-31,Year-end purchase,INV/SET/8455,R010,R008
+EX00016,ENC,AL033,equipment,PO-2026-009,Barak Fabricators,566999,2026-04-02,Advance 30% - Masts,INV/BAR/72256,R020,R016
+EX00010,PWR,AL017,equipment,PO-2026-005,Kamrup Power Systems,2856000,2026-04-06,Payment on delivery 60% - UPS,INV/KAM/13614,R011,R008
+EX00137,PWR,AL025,consumables,,Barak Fabricators,154354,2026-04-06,Calibration kits,INV/BAR/87985,R010,R008
+EX00181,HYD,AL085,consumables,,Barak Fabricators,152436,2026-04-09,Mounting hardware,INV/BAR/50020,R048,R047
+EX00003,CVL,AL001,civil_works,PO-2026-002,Agnirodh Fire Safety,651000,2026-04-10,Advance 30% - Fire safety system,INV/AGN/62542,R005,R001
+EX00212,DSP,AL117,software_licences,,Barak Fabricators,483379,2026-04-11,GIS licence,INV/BAR/89067,R046,R036
+EX00198,PUR,AL101,travel,,,99702,2026-04-12,Remote site inspection,INV/GEN/74568,R056,R055
+EX00117,CVL,AL009,consumables,,Kamrup Power Systems,17782,2026-04-13,Cables & connectors,INV/KAM/34841,R003,R001
+EX00157,SEN,AL057,consumables,,Pragjyotish Supplies,27617,2026-04-13,Calibration kits,INV/PRA/90231,R025,R024
+EX00143,ENC,AL041,consumables,,Tezpur Switchgear,83726,2026-04-15,Cables & connectors,INV/TEZ/80597,R021,R016
+EX00167,DSP,AL073,consumables,,Barak Fabricators,44533,2026-04-17,Mounting hardware,INV/BAR/56291,R036,R036
+EX00188,HYD,AL090,travel,,,177454,2026-04-25,District coordination meeting,INV/GEN/62379,R050,R047
+EX00075,CVL,AL006,manpower,,,299000,2026-04-30,Project staff salaries Apr 2026,PAY/CVL/202604,R005,R058
+EX00076,PWR,AL022,manpower,,,339000,2026-04-30,Project staff salaries Apr 2026,PAY/PWR/202604,R011,R058
+EX00077,ENC,AL038,manpower,,,429000,2026-04-30,Project staff salaries Apr 2026,PAY/ENC/202604,R021,R058
+EX00078,SEN,AL054,manpower,,,595000,2026-04-30,Project staff salaries Apr 2026,PAY/SEN/202604,R029,R058
+EX00079,DSP,AL070,manpower,,,515000,2026-04-30,Project staff salaries Apr 2026,PAY/DSP/202604,R036,R058
+EX00080,HYD,AL082,manpower,,,423000,2026-04-30,Project staff salaries Apr 2026,PAY/HYD/202604,R049,R058
+EX00081,PUR,AL094,manpower,,,127000,2026-04-30,Project staff salaries Apr 2026,PAY/PUR/202604,R056,R058
+EX00082,PMU,AL106,manpower,,,132000,2026-04-30,Project staff salaries Apr 2026,PAY/PMU/202604,R058,R058
+EX00013,PWR,AL018,equipment,PO-2026-007,Tezpur Switchgear,251997,2026-05-02,Advance 30% - Solar power kits,INV/TEZ/42647,R010,R008
+EX00152,ENC,AL046,travel,,,138198,2026-05-02,Remote site inspection,INV/GEN/85264,R023,R016
+EX00022,SEN,AL050,equipment,PO-2026-013,Nadi Sensors India,7539840,2026-05-08,Advance 30% - Weather station clusters,INV/NAD/13834,R030,R024
+EX00168, DSP ,AL074,consumables,,Meghdoot Data Systems,120687,2026-05-09,Calibration kits,INV/MEG/69610,R045,R036
+EX00178,DSP,AL078,travel,,,38131,2026-05-09,District coordination meeting,INV/GEN/52857,R038,R036
+EX00193,PUR,AL098,consumables,,Setu Telemetry,96359,2026-05-13,Cables & connectors,INV/SET/8045,R056,R055
+EX00131,PWR,AL026,consumables,,Agnirodh Fire Safety,42197,2026-05-16,Calibration kits,INV/AGN/79566,R011,R008
+EX00215,DSP,AL118,software_licences,,Barak Fabricators,366582,2026-05-17,SMS gateway licence,INV/BAR/98399,R037,R036
+EX00194,PUR,AL098,consumables,,Tezpur Switchgear,31633,2026-05-18,Cables & connectors,INV/TEZ/74337,R057,R055
+EX00116,CVL,AL010,consumables,,Kamrup Power Systems,104346,2026-05-20,Calibration kits,INV/KAM/72854,R004,R001
+EX00018,ENC,AL034,equipment,PO-2026-010,Barak Fabricators,819000,2026-05-22,Advance 30% - Enclosures,INV/BAR/90256,R016,R016
+EX00019,ENC,AL034,equipment,PO-2026-011,Barak Fabricators,682499,2026-05-23,Advance 30% - Lightning protection,INV/BAR/77772,R023,R016
+EX00008,PWR,AL018,equipment,PO-2026-004,Tezpur Switchgear,2940000,2026-05-26,Payment on delivery 60% - Grid supply upgrade,INV/TEZ/61598,R014,R008
+EX00217,HYD,AL122,software_licences,,Barak Fabricators,570863,2026-05-26,GIS licence,INV/BAR/52668,R051,R047
+EX00015,ENC,AL034,equipment,PO-2026-008,Barak Fabricators,4829998,2026-05-29,Payment on delivery 60% - Enclosure fabrication yard,INV/BAR/22979,R021,R016
+EX00138,PWR,AL030,travel,,,12002,2026-05-29,Remote site inspection,INV/GEN/51161,R008,R008
+EX00083,CVL,AL006,manpower,,,299000,2026-05-31,Project staff salaries May 2026,PAY/CVL/202605,R007,R058
+EX00084,PWR,AL022,manpower,,,339000,2026-05-31,Project staff salaries May 2026,PAY/PWR/202605,R010,R058
+EX00085,ENC,AL038,manpower,,,344000,2026-05-31,Project staff salaries May 2026,PAY/ENC/202605,R022,R058
+EX00086,SEN,AL054,manpower,,,595000,2026-05-31,Project staff salaries May 2026,PAY/SEN/202605,R025,R058
+EX00087,DSP,AL070,manpower,,,515000,2026-05-31,Project staff salaries May 2026,PAY/DSP/202605,R045,R058
+EX00088,HYD,AL082,manpower,,,423000,2026-05-31,Project staff salaries May 2026,PAY/HYD/202605,R048,R058
+EX00089,PUR,AL094,manpower,,,127000,2026-05-31,Project staff salaries May 2026,PAY/PUR/202605,R057,R058
+EX00090,PMU,AL106,manpower,,,132000,2026-05-31,Project staff salaries May 2026,PAY/PMU/202605,R059,R058
+EX00201,PMU,AL110,consumables,,Meghdoot Data Systems,15941,2026-05-31,Mounting hardware,INV/MEG/93349,R061,R058
+EX00118,CVL,AL010,consumables,,Meghdoot Data Systems,63848,2026-06-04,Spares,INV/MEG/76491,R006,R001
+EX00205,PMU,AL110,consumables,,Agnirodh Fire Safety,119011,2026-06-08,Spares,INV/AGN/22263,R061,R058
+EX00231,HYD,AL122,software_licences,,Pragjyotish Supplies,337088,2026-06-10,Licence renewal,INV/PRA/18219,R053,R047
+EX00002,CVL,AL002,civil_works,PO-2026-001,Luit Infra Builders,1995000,2026-06-12,Payment on delivery 60% - Control centre & site foundations,INV/LUI/85235,R003,R001
+EX00121,CVL,AL010,consumables,,Barak Fabricators,87919,2026-06-13,Spares,INV/BAR/98338,R001,R001
+EX00232,HYD,AL122,software_licences,,Pragjyotish Supplies,300708,2026-06-13,Licence renewal,INV/PRA/85281,R054,R047
+EX00233,HYD,AL122,software_licences,,Pragjyotish Supplies,390270,2026-06-16,Licence renewal,INV/PRA/93964,R054,R047
+EX00150,ENC,AL042,consumables,,Luit Infra Builders,158891,2026-06-17,Calibration kits,INV/LUI/50611,R020,R016
+EX00234,HYD,AL122,software_licences,,Pragjyotish Supplies,318732,2026-06-19,Licence renewal,INV/PRA/42707,R054,R047
+EX00024,SEN,AL050,equipment,PO-2026-014,Setu Telemetry,5670000,2026-06-21,Payment on delivery 60% - Telemetry network,INV/SET/79669,R032,R024
+EX00214,DSP,AL118,software_licences,,Pragjyotish Supplies,456879,2026-06-22,SMS gateway licence,INV/PRA/59036,R040,R036
+EX00235,HYD,AL122,software_licences,,Pragjyotish Supplies,305934,2026-06-22,Licence renewal,INV/PRA/20024,R050,R047
+EX00163,SEN,AL062,travel,,,25612,2026-06-26,"NDMA review meeting, New Delhi",INV/GEN/7217,R025,R024
+EX00146,ENC,AL042,consumables,,Nadi Sensors India,117672,2026-06-28,Calibration kits,INV/NAD/96717,R020,R016
+EX00151,ENC,AL046,travel,,,89745,2026-06-29,District coordination meeting,INV/GEN/64717,R022,R016
+EX00091,CVL,AL006,manpower,,,299000,2026-06-30,Project staff salaries Jun 2026,PAY/CVL/202606,R001,R058
+EX00092,PWR,AL022,manpower,,,339000,2026-06-30,Project staff salaries Jun 2026,PAY/PWR/202606,R012,R058
+EX00093,ENC,AL038,manpower,,,344000,2026-06-30,Project staff salaries Jun 2026,PAY/ENC/202606,R018,R058
+EX00094,SEN,AL054,manpower,,,595000,2026-06-30,Project staff salaries Jun 2026,PAY/SEN/202606,R034,R058
+EX00095,DSP,AL070,manpower,,,515000,2026-06-30,Project staff salaries Jun 2026,PAY/DSP/202606,R044,R058
+EX00096,HYD,AL082,manpower,,,423000,2026-06-30,Project staff salaries Jun 2026,PAY/HYD/202606,R051,R058
+EX00097,PUR,AL094,manpower,,,127000,2026-06-30,Project staff salaries Jun 2026,PAY/PUR/202606,R056,R058
+EX00098,PMU,AL106,manpower,,,132000,2026-06-30,Project staff salaries Jun 2026,PAY/PMU/202606,R059,R058
+EX00122,CVL,AL010,consumables,,Setu Telemetry,99296,2026-07-01,Cables & connectors,INV/SET/52621,R007,R001
+EX00166,DSP,AL074,consumables,,Meghdoot Data Systems,132303,2026-07-01,Spares,INV/MEG/16550,R042,R036
+EX00244,SEN,AL050,equipment,PO-2026-013,Pragjyotish Supplies,1148735,2026-07-03,Sensor calibration equipment,INV/PRA/75461,R024,R024
+EX00243,PWR,AL018,equipment,,,-272725,2026-07-04,Adjustment,,R014,R008
+EX00159,SEN,AL058,consumables,,Tezpur Switchgear,103752,2026-07-05,Mounting hardware,INV/TEZ/7245,R026,R024
+EX00202,PMU,AL110,consumables,,Kamrup Power Systems,73831,2026-07-05,Cables & connectors,INV/KAM/85814,R061,R058
+EX00230,ENC,AL042,consumables,,Meghdoot Data Systems,124172,08/07/2026,Spares,INV/MEG/73788,R021,R021
+EX00141,PWR,AL030,travel,,,143210,2026-07-10,District coordination meeting,INV/GEN/88454,R008,R008
+EX00172,DSP,AL074,consumables,,Kamrup Power Systems,73628,2026-07-20,Spares,INV/KAM/56099,R041,R036
+EX00213,DSP,AL118,software_licences,,Kamrup Power Systems,418670,2026-07-22,GIS licence,INV/KAM/89060,R037,R036
+EX00006,CVL,AL002,civil_works,PO-2026-003,Luit Infra Builders,441000,2026-07-23,Payment on delivery 60% - Security & CCTV,INV/LUI/50323,R005,R001
+EX00021,SEN,AL050,equipment,PO-2026-012,Nadi Sensors India,13117440,2026-07-24,Payment on delivery 60% - River gauge clusters,INV/NAD/23754,R031,R024
+EX00130,PWR,AL026,consumables,,Setu Telemetry,104527,2026-07-24,Cables & connectors,INV/SET/45091,R011,R008
+EX00227,SEN,AL050,equipment,,Pragjyotish Supplies,2459858,2026-07-26,Urgent sensor spares - direct purchase,INV/PRA/86260,R034,R024
+EX00171,DSP,AL074,consumables,,Barak Fabricators,27729,2026-07-27,Mounting hardware,INV/BAR/31794,R043,R036
+EX00203,PMU,AL110,consumables,,Tezpur Switchgear,36040,2026-07-30,Calibration kits,INV/TEZ/24775,R059,R058
+EX00004,CVL,AL002,civil_works,PO-2026-002,Agnirodh Fire Safety,1302000,2026-07-31,Payment on delivery 60% - Fire safety system,INV/AGN/18205,R004,R001
+EX00099,CVL,AL006,manpower,,,299000,2026-07-31,Project staff salaries Jul 2026,PAY/CVL/202607,R003,R058
+EX00100,PWR,AL022,manpower,,,339000,2026-07-31,Project staff salaries Jul 2026,PAY/PWR/202607,R013,R058
+EX00101,ENC,AL038,manpower,,,344000,2026-07-31,Project staff salaries Jul 2026,PAY/ENC/202607,R021,R058
+EX00102,SEN,AL054,manpower,,,595000,2026-07-31,Project staff salaries Jul 2026,PAY/SEN/202607,R029,R058
+EX00103,DSP,AL070,manpower,,,515000,2026-07-31,Project staff salaries Jul 2026,PAY/DSP/202607,R043,R058
+EX00104,HYD,AL082,manpower,,,423000,2026-07-31,Project staff salaries Jul 2026,PAY/HYD/202607,R047,R058
+EX00105,PUR,AL094,manpower,,,127000,2026-07-31,Project staff salaries Jul 2026,PAY/PUR/202607,R055,R058
+EX00106,PMU,AL106,manpower,,,132000,2026-07-31,Project staff salaries Jul 2026,PAY/PMU/202607,R058,R058
+EX00182,HYD,AL086,consumables,,Meghdoot Data Systems,84462,2026-08-02,Cables & connectors,INV/MEG/91436,R053,R047
+EX00119,CVL,AL010,consumables,,Setu Telemetry,17162,2026-08-03,Spares,INV/SET/46427,R007,R001
+EX00176,DSP,AL078,travel,,,53931,2026-08-03,District coordination meeting,INV/GEN/5984,R036,R036
+EX00129,PWR,AL026,consumables,,Nadi Sensors India,74183,2026-08-06,Mounting hardware,INV/NAD/42224,R008,R008
+EX00186,HYD,AL086,consumables,,Barak Fabricators,154837,2026-08-06,Mounting hardware,INV/BAR/79450,R050,R047
+EX00133,PWR,AL026,consumables,,Agnirodh Fire Safety,87554,2026-08-11,Spares,INV/AGN/71660,R014,R008
+EX00174,DSP,AL074,consumables,,Pragjyotish Supplies,174269,2026-08-15,Spares,INV/PRA/87148,R045,R036
+EX00017,ENC,AL034,equipment,PO-2026-009,Barak Fabricators,1133999,2026-08-17,Payment on delivery 60% - Masts,INV/BAR/14158,R018,R016
+EX00012,PWR,AL018,equipment,PO-2026-006,Kamrup Power Systems,1890000,2026-08-20,Payment on delivery 60% - DG backup set,INV/KAM/22796,R009,R008
+EX00185,HYD,AL086,consumables,,Barak Fabricators,173855,2026-08-22,Cables & connectors,INV/BAR/17633,R053,R047
+EX00026,DSP,AL066,equipment,PO-2026-015,Meghdoot Data Systems,6720000,2026-08-28,Payment on delivery 60% - Data centre,INV/MEG/31093,R040,R036
+EX00173,DSP,AL074,consumables,,Setu Telemetry,54606,2026-08-30,Spares,INV/SET/45033,R044,R036
+EX00107,CVL,AL006,manpower,,,299000,2026-08-31,Project staff salaries Aug 2026,PAY/CVL/202608,R001,R058
+EX00108,PWR,AL022,manpower,,,339000,2026-08-31,Project staff salaries Aug 2026,PAY/PWR/202608,R012,R058
+EX00109,ENC,AL038,manpower,,,344000,2026-08-31,Project staff salaries Aug 2026,PAY/ENC/202608,R016,R058
+EX00110,SEN,AL054,manpower,,,595000,2026-08-31,Project staff salaries Aug 2026,PAY/SEN/202608,R025,R058
+EX00111,DSP,AL070,manpower,,,515000,2026-08-31,Project staff salaries Aug 2026,PAY/DSP/202608,R038,R058
+EX00112,HYD,AL082,manpower,,,423000,2026-08-31,Project staff salaries Aug 2026,PAY/HYD/202608,R047,R058
+EX00113,PUR,AL094,manpower,,,127000,2026-08-31,Project staff salaries Aug 2026,PAY/PUR/202608,R056,R058
+EX00114,PMU,AL106,manpower,,,132000,2026-08-31,Project staff salaries Aug 2026,PAY/PMU/202608,R060,R058
+EX00139,PWR,AL030,travel,,,86455,2026-08-31,District coordination meeting,INV/GEN/42528,R008,R008
+EX00226, HYD ,AL086,consumables,,Luit Infra Builders,434447,2026-08-31,Bulk purchase,INV/LUI/91755,R053,R047
+EX00225,HYD,AL086,consumables,,Kamrup Power Systems,324359,2026-09-01,Bulk purchase,INV/KAM/43293,R050,R047
+EX00197,PUR,AL102,travel,,,116782,2026-09-04,Remote site inspection,INV/GEN/74961,R056,R055
+EX00179,DSP,AL078,travel,,,69373,2026-09-05,Remote site inspection,INV/GEN/31312,R042,R036
+EX00195,PUR,AL098,consumables,,Barak Fabricators,141638,2026-09-05,Cables & connectors,INV/BAR/1164,R057,R055
+EX00229,DSP,AL067,equipment,,Meghdoot Data Systems,1383228,2026-09-06,Additional database server,INV/MEG/76761,R041,R036
+EX00207,PMU,AL114,travel,,,34504,2026-09-07,District coordination meeting,INV/GEN/74503,R061,R058
+EX00183,HYD,AL086,consumables,,Nadi Sensors India,8489,2026-09-11,Calibration kits,INV/NAD/51222,R048,R047
+EX00222,HYD,AL122,software_licences,,Agnirodh Fire Safety,423893,2026-09-13,SMS gateway licence,INV/AGN/11153,R053,R047
+EX00228,PWR,AL018,equipment,PO-2026-006,Kamrup Power Systems,693000,2026-09-13,Final payment,INV/KAM/56153,R009,R008

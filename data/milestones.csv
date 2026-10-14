@@ -1,0 +1,7 @@
+milestone_id,milestone_name,due_date,linked_task_ids,releases_tranche_id,reported_status
+M1,"Project sanctioned, board constituted",2025-10-21,PMU-01,T1,achieved
+M2,All major procurement awarded,2026-03-10,PUR-03;SEN-02,T2,achieved
+M3,Control centre & power ready for sensors,2026-07-28,CVL-07;PWR-05,,on_track
+M4,"Gauges, weather stations & enclosures installed",2026-10-26,SEN-05;SEN-07;ENC-06,T3,on_track
+M5,Monsoon mock drill passed,2026-12-30,HYD-04,,on_track
+M6,Operational acceptance & go-live,2027-03-15,PMU-04,T4,on_track

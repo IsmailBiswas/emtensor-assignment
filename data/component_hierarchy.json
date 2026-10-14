@@ -1,0 +1,2297 @@
+{
+ "id": "FEWS-001",
+ "name": "Flood Early-Warning Network",
+ "type": "system",
+ "owner_dept": "PMU",
+ "children": [
+  {
+   "id": "CC-001",
+   "name": "Control centre & sites",
+   "type": "subsystem",
+   "owner_dept": "CVL",
+   "children": [
+    {
+     "id": "CC-FND",
+     "name": "Control centre & site foundations",
+     "type": "assembly",
+     "owner_dept": "CVL",
+     "children": []
+    },
+    {
+     "id": "CC-FIRE",
+     "name": "Fire safety system",
+     "type": "assembly",
+     "owner_dept": "CVL",
+     "children": []
+    },
+    {
+     "id": "CC-SEC",
+     "name": "Security & CCTV",
+     "type": "assembly",
+     "owner_dept": "CVL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "PWS-001",
+   "name": "Power systems",
+   "type": "subsystem",
+   "owner_dept": "PWR",
+   "children": [
+    {
+     "id": "PWS-SUB",
+     "name": "Grid supply upgrade",
+     "type": "assembly",
+     "owner_dept": "PWR",
+     "children": []
+    },
+    {
+     "id": "PWS-UPS",
+     "name": "UPS",
+     "type": "assembly",
+     "owner_dept": "PWR",
+     "children": []
+    },
+    {
+     "id": "PWS-DG",
+     "name": "DG backup set",
+     "type": "assembly",
+     "owner_dept": "PWR",
+     "children": []
+    },
+    {
+     "id": "PWS-SOL",
+     "name": "Solar power kits",
+     "type": "assembly",
+     "owner_dept": "PWR",
+     "children": [
+      {
+       "id": "PWS-SOL-R1",
+       "name": "Solar kit gauge cluster 1",
+       "type": "part",
+       "owner_dept": "PWR",
+       "children": []
+      },
+      {
+       "id": "PWS-SOL-R2",
+       "name": "Solar kit gauge cluster 2",
+       "type": "part",
+       "owner_dept": "PWR",
+       "children": []
+      },
+      {
+       "id": "PWS-SOL-R3",
+       "name": "Solar kit gauge cluster 3",
+       "type": "part",
+       "owner_dept": "PWR",
+       "children": []
+      },
+      {
+       "id": "PWS-SOL-R4",
+       "name": "Solar kit gauge cluster 4",
+       "type": "part",
+       "owner_dept": "PWR",
+       "children": []
+      },
+      {
+       "id": "PWS-SOL-G1",
+       "name": "Solar kit weather cluster 1",
+       "type": "part",
+       "owner_dept": "PWR",
+       "children": []
+      },
+      {
+       "id": "PWS-SOL-G2",
+       "name": "Solar kit weather cluster 2",
+       "type": "part",
+       "owner_dept": "PWR",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ENC-001",
+   "name": "Masts & enclosures",
+   "type": "subsystem",
+   "owner_dept": "ENC",
+   "children": [
+    {
+     "id": "ENC-YARD",
+     "name": "Enclosure fabrication yard",
+     "type": "assembly",
+     "owner_dept": "ENC",
+     "children": []
+    },
+    {
+     "id": "ENC-MST",
+     "name": "Masts",
+     "type": "assembly",
+     "owner_dept": "ENC",
+     "children": []
+    },
+    {
+     "id": "ENC-BOX",
+     "name": "Enclosures",
+     "type": "assembly",
+     "owner_dept": "ENC",
+     "children": []
+    },
+    {
+     "id": "ENC-LPS",
+     "name": "Lightning protection",
+     "type": "assembly",
+     "owner_dept": "ENC",
+     "children": [
+      {
+       "id": "ENC-LPS-R1",
+       "name": "Lightning protection gauge cluster 1",
+       "type": "part",
+       "owner_dept": "ENC",
+       "children": []
+      },
+      {
+       "id": "ENC-LPS-R2",
+       "name": "Lightning protection gauge cluster 2",
+       "type": "part",
+       "owner_dept": "ENC",
+       "children": []
+      },
+      {
+       "id": "ENC-LPS-R3",
+       "name": "Lightning protection gauge cluster 3",
+       "type": "part",
+       "owner_dept": "ENC",
+       "children": []
+      },
+      {
+       "id": "ENC-LPS-R4",
+       "name": "Lightning protection gauge cluster 4",
+       "type": "part",
+       "owner_dept": "ENC",
+       "children": []
+      },
+      {
+       "id": "ENC-LPS-G1",
+       "name": "Lightning protection weather cluster 1",
+       "type": "part",
+       "owner_dept": "ENC",
+       "children": []
+      },
+      {
+       "id": "ENC-LPS-G2",
+       "name": "Lightning protection weather cluster 2",
+       "type": "part",
+       "owner_dept": "ENC",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "TLM-001",
+   "name": "Telemetry network",
+   "type": "subsystem",
+   "owner_dept": "SEN",
+   "children": [
+    {
+     "id": "TLM-CGW-01",
+     "name": "Central gateway 1",
+     "type": "part",
+     "owner_dept": "SEN",
+     "children": []
+    },
+    {
+     "id": "TLM-CGW-02",
+     "name": "Central gateway 2",
+     "type": "part",
+     "owner_dept": "SEN",
+     "children": []
+    },
+    {
+     "id": "TLM-GW-R1",
+     "name": "Cluster gateway gauges 1",
+     "type": "part",
+     "owner_dept": "SEN",
+     "children": []
+    },
+    {
+     "id": "TLM-GW-R2",
+     "name": "Cluster gateway gauges 2",
+     "type": "part",
+     "owner_dept": "SEN",
+     "children": []
+    },
+    {
+     "id": "TLM-GW-R3",
+     "name": "Cluster gateway gauges 3",
+     "type": "part",
+     "owner_dept": "SEN",
+     "children": []
+    },
+    {
+     "id": "TLM-GW-R4",
+     "name": "Cluster gateway gauges 4",
+     "type": "part",
+     "owner_dept": "SEN",
+     "children": []
+    },
+    {
+     "id": "TLM-GW-G1",
+     "name": "Cluster gateway weather 1",
+     "type": "part",
+     "owner_dept": "SEN",
+     "children": []
+    },
+    {
+     "id": "TLM-GW-G2",
+     "name": "Cluster gateway weather 2",
+     "type": "part",
+     "owner_dept": "SEN",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "DC-001",
+   "name": "Data centre",
+   "type": "subsystem",
+   "owner_dept": "DSP",
+   "children": [
+    {
+     "id": "DC-DB",
+     "name": "Database servers",
+     "type": "assembly",
+     "owner_dept": "DSP",
+     "children": []
+    },
+    {
+     "id": "DC-CPT",
+     "name": "Compute servers",
+     "type": "assembly",
+     "owner_dept": "DSP",
+     "children": []
+    },
+    {
+     "id": "DC-STR",
+     "name": "Storage shelves",
+     "type": "assembly",
+     "owner_dept": "DSP",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "FLD-001",
+   "name": "Sensor field",
+   "type": "subsystem",
+   "owner_dept": "SEN",
+   "children": [
+    {
+     "id": "FLD-GAU",
+     "name": "River gauge clusters",
+     "type": "assembly",
+     "owner_dept": "SEN",
+     "children": [
+      {
+       "id": "FLD-GAU-R1",
+       "name": "Gauge cluster 1",
+       "type": "rack",
+       "owner_dept": "SEN",
+       "children": [
+        {
+         "id": "FLD-GAU-R1-N01",
+         "name": "Gauge station 1-01",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N01-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N01-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N02",
+         "name": "Gauge station 1-02",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N02-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N02-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N03",
+         "name": "Gauge station 1-03",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N03-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N03-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N04",
+         "name": "Gauge station 1-04",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N04-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N04-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N05",
+         "name": "Gauge station 1-05",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N05-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N05-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N06",
+         "name": "Gauge station 1-06",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N06-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N06-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N07",
+         "name": "Gauge station 1-07",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N07-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N07-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N08",
+         "name": "Gauge station 1-08",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N08-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N08-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N09",
+         "name": "Gauge station 1-09",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N09-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N09-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N10",
+         "name": "Gauge station 1-10",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N10-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N10-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N11",
+         "name": "Gauge station 1-11",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N11-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N11-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N12",
+         "name": "Gauge station 1-12",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N12-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N12-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N13",
+         "name": "Gauge station 1-13",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N13-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N13-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N14",
+         "name": "Gauge station 1-14",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N14-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N14-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N15",
+         "name": "Gauge station 1-15",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N15-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N15-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R1-N16",
+         "name": "Gauge station 1-16",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R1-N16-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R1-N16-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "FLD-GAU-R2",
+       "name": "Gauge cluster 2",
+       "type": "rack",
+       "owner_dept": "SEN",
+       "children": [
+        {
+         "id": "FLD-GAU-R2-N01",
+         "name": "Gauge station 2-01",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N01-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N01-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N02",
+         "name": "Gauge station 2-02",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N02-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N02-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N03",
+         "name": "Gauge station 2-03",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N03-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N03-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N04",
+         "name": "Gauge station 2-04",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N04-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N04-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N05",
+         "name": "Gauge station 2-05",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N05-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N05-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N06",
+         "name": "Gauge station 2-06",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N06-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N06-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N07",
+         "name": "Gauge station 2-07",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N07-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N07-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N08",
+         "name": "Gauge station 2-08",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N08-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N08-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N09",
+         "name": "Gauge station 2-09",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N09-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N09-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N10",
+         "name": "Gauge station 2-10",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N10-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N10-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N11",
+         "name": "Gauge station 2-11",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N11-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N11-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N12",
+         "name": "Gauge station 2-12",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N12-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N12-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N13",
+         "name": "Gauge station 2-13",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N13-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N13-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N14",
+         "name": "Gauge station 2-14",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N14-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N14-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N15",
+         "name": "Gauge station 2-15",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N15-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N15-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R2-N16",
+         "name": "Gauge station 2-16",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R2-N16-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R2-N16-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "FLD-GAU-R3",
+       "name": "Gauge cluster 3",
+       "type": "rack",
+       "owner_dept": "SEN",
+       "children": [
+        {
+         "id": "FLD-GAU-R3-N01",
+         "name": "Gauge station 3-01",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N01-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N01-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N02",
+         "name": "Gauge station 3-02",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N02-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N02-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N03",
+         "name": "Gauge station 3-03",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N03-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N03-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N04",
+         "name": "Gauge station 3-04",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N04-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N04-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N05",
+         "name": "Gauge station 3-05",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N05-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N05-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N06",
+         "name": "Gauge station 3-06",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N06-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N06-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N07",
+         "name": "Gauge station 3-07",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N07-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N07-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N08",
+         "name": "Gauge station 3-08",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N08-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N08-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N09",
+         "name": "Gauge station 3-09",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N09-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N09-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N10",
+         "name": "Gauge station 3-10",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N10-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N10-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N11",
+         "name": "Gauge station 3-11",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N11-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N11-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N12",
+         "name": "Gauge station 3-12",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N12-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N12-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N13",
+         "name": "Gauge station 3-13",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N13-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N13-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N14",
+         "name": "Gauge station 3-14",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N14-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N14-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N15",
+         "name": "Gauge station 3-15",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N15-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N15-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R3-N16",
+         "name": "Gauge station 3-16",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R3-N16-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R3-N16-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "FLD-GAU-R4",
+       "name": "Gauge cluster 4",
+       "type": "rack",
+       "owner_dept": "SEN",
+       "children": [
+        {
+         "id": "FLD-GAU-R4-N01",
+         "name": "Gauge station 4-01",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N01-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N01-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N02",
+         "name": "Gauge station 4-02",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N02-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N02-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N03",
+         "name": "Gauge station 4-03",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N03-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N03-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N04",
+         "name": "Gauge station 4-04",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N04-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N04-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N05",
+         "name": "Gauge station 4-05",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N05-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N05-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N06",
+         "name": "Gauge station 4-06",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N06-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N06-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N07",
+         "name": "Gauge station 4-07",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N07-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N07-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N08",
+         "name": "Gauge station 4-08",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N08-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N08-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N09",
+         "name": "Gauge station 4-09",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N09-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N09-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N10",
+         "name": "Gauge station 4-10",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N10-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N10-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N11",
+         "name": "Gauge station 4-11",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N11-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N11-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N12",
+         "name": "Gauge station 4-12",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N12-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N12-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N13",
+         "name": "Gauge station 4-13",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N13-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N13-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N14",
+         "name": "Gauge station 4-14",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N14-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N14-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N15",
+         "name": "Gauge station 4-15",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N15-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N15-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-GAU-R4-N16",
+         "name": "Gauge station 4-16",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-GAU-R4-N16-RLS",
+           "name": "Radar level sensor",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-GAU-R4-N16-BAT",
+           "name": "Battery cell",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "FLD-AWS",
+     "name": "Weather station clusters",
+     "type": "assembly",
+     "owner_dept": "SEN",
+     "children": [
+      {
+       "id": "FLD-AWS-R1",
+       "name": "Weather cluster 1",
+       "type": "rack",
+       "owner_dept": "SEN",
+       "children": [
+        {
+         "id": "FLD-AWS-R1-N01",
+         "name": "Weather station 1-01",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R1-N01-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N01-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N01-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R1-N02",
+         "name": "Weather station 1-02",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R1-N02-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N02-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N02-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R1-N03",
+         "name": "Weather station 1-03",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R1-N03-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N03-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N03-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R1-N04",
+         "name": "Weather station 1-04",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R1-N04-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N04-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N04-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R1-N05",
+         "name": "Weather station 1-05",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R1-N05-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N05-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N05-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R1-N06",
+         "name": "Weather station 1-06",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R1-N06-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N06-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N06-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R1-N07",
+         "name": "Weather station 1-07",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R1-N07-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N07-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N07-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R1-N08",
+         "name": "Weather station 1-08",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R1-N08-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N08-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R1-N08-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "FLD-AWS-R2",
+       "name": "Weather cluster 2",
+       "type": "rack",
+       "owner_dept": "SEN",
+       "children": [
+        {
+         "id": "FLD-AWS-R2-N01",
+         "name": "Weather station 2-01",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R2-N01-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N01-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N01-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R2-N02",
+         "name": "Weather station 2-02",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R2-N02-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N02-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N02-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R2-N03",
+         "name": "Weather station 2-03",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R2-N03-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N03-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N03-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R2-N04",
+         "name": "Weather station 2-04",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R2-N04-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N04-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N04-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R2-N05",
+         "name": "Weather station 2-05",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R2-N05-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N05-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N05-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R2-N06",
+         "name": "Weather station 2-06",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R2-N06-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N06-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N06-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R2-N07",
+         "name": "Weather station 2-07",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R2-N07-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N07-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N07-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "FLD-AWS-R2-N08",
+         "name": "Weather station 2-08",
+         "type": "node",
+         "owner_dept": "SEN",
+         "children": [
+          {
+           "id": "FLD-AWS-R2-N08-RLS",
+           "name": "Rain gauge",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N08-ANM",
+           "name": "Anemometer",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          },
+          {
+           "id": "FLD-AWS-R2-N08-BAT",
+           "name": "Sensor cable",
+           "type": "part",
+           "owner_dept": "SEN",
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "FAP-001",
+   "name": "Forecasting & alerting platform",
+   "type": "subsystem",
+   "owner_dept": "DSP",
+   "children": [
+    {
+     "id": "FAP-ING",
+     "name": "Ingestion baseline",
+     "type": "assembly",
+     "owner_dept": "DSP",
+     "children": []
+    },
+    {
+     "id": "FAP-FCS",
+     "name": "Forecast scheduling engine",
+     "type": "assembly",
+     "owner_dept": "DSP",
+     "children": []
+    },
+    {
+     "id": "FAP-DASH",
+     "name": "Operations dashboards",
+     "type": "assembly",
+     "owner_dept": "DSP",
+     "children": []
+    },
+    {
+     "id": "FAP-ALRT",
+     "name": "Public alert portal & SMS",
+     "type": "assembly",
+     "owner_dept": "DSP",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "HYD-001",
+   "name": "Forecasting readiness",
+   "type": "subsystem",
+   "owner_dept": "HYD",
+   "children": [
+    {
+     "id": "HYD-MOD",
+     "name": "Flood model calibration",
+     "type": "assembly",
+     "owner_dept": "HYD",
+     "children": []
+    },
+    {
+     "id": "HYD-PROT",
+     "name": "District alert protocols",
+     "type": "assembly",
+     "owner_dept": "HYD",
+     "children": []
+    },
+    {
+     "id": "HYD-DRILL",
+     "name": "Monsoon mock drill",
+     "type": "assembly",
+     "owner_dept": "HYD",
+     "children": []
+    }
+   ]
+  }
+ ]
+}

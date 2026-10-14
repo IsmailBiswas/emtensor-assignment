@@ -1,0 +1,316 @@
+component_id,parent_component_id,component_name,component_type,owner_dept_id,quantity,unit_cost_inr,governing_task_id,status
+FEWS-001,,Flood Early-Warning Network,system,PMU,1,0,,planned
+CC-001,FEWS-001,Control centre & sites,subsystem,CVL,1,0,CVL-07,tested
+CC-FND,CC-001,Control centre & site foundations,assembly,CVL,1,3325000,CVL-04,installed
+CC-FIRE,CC-001,Fire safety system,assembly,CVL,1,2170000,CVL-05,installed
+CC-SEC,CC-001,Security & CCTV,assembly,CVL,1,735000,CVL-06,installed
+PWS-001,FEWS-001,Power systems,subsystem,PWR,1,0,PWR-07,planned
+PWS-SUB,PWS-001,Grid supply upgrade,assembly,PWR,1,4900000,PWR-02,installed
+PWS-UPS,PWS-001,UPS,assembly,PWR,2,2380000,PWR-04,installed
+PWS-DG,PWS-001,DG backup set,assembly,PWR,1,3150000,PWR-06,installed
+PWS-SOL,PWS-001,Solar power kits,assembly,PWR,1,0,PWR-05,in_progress
+ENC-001,FEWS-001,Masts & enclosures,subsystem,ENC,1,0,ENC-06,planned
+ENC-YARD,ENC-001,Enclosure fabrication yard,assembly,ENC,2,4024999,ENC-02,installed
+ENC-MST,ENC-001,Masts,assembly,ENC,1,1889999,ENC-03,installed
+ENC-BOX,ENC-001,Enclosures,assembly,ENC,2,1365000,ENC-04,in_progress
+ENC-LPS,ENC-001,Lightning protection,assembly,ENC,1,0,ENC-05,planned
+TLM-001,FEWS-001,Telemetry network,subsystem,SEN,1,0,SEN-10,planned
+TLM-CGW-01,TLM-001,Central gateway 1,part,SEN,1,2730000,SEN-09,installed
+TLM-CGW-02,TLM-001,Central gateway 2,part,SEN,1,2730000,SEN-09,installed
+DC-001,FEWS-001,Data centre,subsystem,DSP,1,0,DSP-03,planned
+DC-DB,DC-001,Database servers,assembly,DSP,2,910000,DSP-03,planned
+DC-CPT,DC-001,Compute servers,assembly,DSP,4,1085000,DSP-03,planned
+DC-STR,DC-001,Storage shelves,assembly,DSP,6,840000,DSP-03,planned
+FLD-001,FEWS-001,Sensor field,subsystem,SEN,1,0,SEN-05,planned
+FLD-GAU,FLD-001,River gauge clusters,assembly,SEN,1,0,SEN-05,planned
+FLD-AWS,FLD-001,Weather station clusters,assembly,SEN,1,0,SEN-07,planned
+FLD-GAU-R1,FLD-GAU,Gauge cluster 1,unit,SEN,1,0,SEN-04,installed
+PWS-SOL-R1,PWS-SOL,Solar kit gauge cluster 1,part,PWR,2,62999,PWR-05,in_progress
+ENC-LPS-R1,ENC-LPS,Lightning protection gauge cluster 1,part,ENC,1,332500,ENC-05,ordered
+TLM-GW-R1,TLM-001,Cluster gateway gauges 1,part,SEN,1,665000,SEN-10,planned
+FLD-GAU-R1-N01,FLD-GAU-R1,Gauge station 1-01,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N01-RLS,FLD-GAU-R1-N01,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N01-BAT,FLD-GAU-R1-N01,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N02,FLD-GAU-R1,Gauge station 1-02,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N02-RLS,FLD-GAU-R1-N02,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N02-BAT,FLD-GAU-R1-N02,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N03,FLD-GAU-R1,Gauge station 1-03,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N03-RLS,FLD-GAU-R1-N03,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N03-BAT,FLD-GAU-R1-N03,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N04,FLD-GAU-R1,Gauge station 1-04,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N04-RLS,FLD-GAU-R1-N04,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N04-BAT,FLD-GAU-R1-N04,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N05,FLD-GAU-R1,Gauge station 1-05,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N05-RLS,FLD-GAU-R1-N05,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N05-BAT,FLD-GAU-R1-N05,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N06,FLD-GAU-R1,Gauge station 1-06,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N06-RLS,FLD-GAU-R1-N06,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N06-BAT,FLD-GAU-R1-N06,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N07,FLD-GAU-R1,Gauge station 1-07,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N07-RLS,FLD-GAU-R1-N07,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N07-BAT,FLD-GAU-R1-N07,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N08,FLD-GAU-R1,Gauge station 1-08,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N08-RLS,FLD-GAU-R1-N08,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N08-BAT,FLD-GAU-R1-N08,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N09,FLD-GAU-R1,Gauge station 1-09,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N09-RLS,FLD-GAU-R1-N09,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N09-BAT,FLD-GAU-R1-N09,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N10,FLD-GAU-R1,Gauge station 1-10,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N10-RLS,FLD-GAU-R1-N10,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N10-BAT,FLD-GAU-R1-N10,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N11,FLD-GAU-R1,Gauge station 1-11,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N11-RLS,FLD-GAU-R1-N11,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N11-BAT,FLD-GAU-R1-N11,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N12,FLD-GAU-R1,Gauge station 1-12,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N12-RLS,FLD-GAU-R1-N12,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N12-BAT,FLD-GAU-R1-N12,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N13,FLD-GAU-R1,Gauge station 1-13,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N13-RLS,FLD-GAU-R1-N13,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N13-BAT,FLD-GAU-R1-N13,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N14,FLD-GAU-R1,Gauge station 1-14,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N14-RLS,FLD-GAU-R1-N14,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N14-BAT,FLD-GAU-R1-N14,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N15,FLD-GAU-R1,Gauge station 1-15,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N15-RLS,FLD-GAU-R1-N15,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N15-BAT,FLD-GAU-R1-N15,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R1-N16,FLD-GAU-R1,Gauge station 1-16,sub_unit,SEN,1,0,,planned
+FLD-GAU-R1-N16-RLS,FLD-GAU-R1-N16,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R1-N16-BAT,FLD-GAU-R1-N16,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2,FLD-GAU,Gauge cluster 2,unit,SEN,1,0,SEN-04,delivered
+PWS-SOL-R2,PWS-SOL,Solar kit gauge cluster 2,part,PWR,2,62999,PWR-05,in_progress
+ENC-LPS-R2,ENC-LPS,Lightning protection gauge cluster 2,part,ENC,1,332500,ENC-05,planned
+TLM-GW-R2,TLM-001,Cluster gateway gauges 2,part,SEN,1,665000,SEN-10,planned
+FLD-GAU-R2-N01,FLD-GAU-R2,Gauge station 2-01,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N01-RLS,FLD-GAU-R2-N01,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N01-BAT,FLD-GAU-R2-N01,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N02,FLD-GAU-R2,Gauge station 2-02,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N02-RLS,FLD-GAU-R2-N02,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N02-BAT,FLD-GAU-R2-N02,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N03,FLD-GAU-R2,Gauge station 2-03,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N03-RLS,FLD-GAU-R2-N03,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N03-BAT,FLD-GAU-R2-N03,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N04,FLD-GAU-R2,Gauge station 2-04,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N04-RLS,FLD-GAU-R2-N04,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N04-BAT,FLD-GAU-R2-N04,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N05,FLD-GAU-R2,Gauge station 2-05,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N05-RLS,FLD-GAU-R2-N05,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N05-BAT,FLD-GAU-R2-N05,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N06,FLD-GAU-R2,Gauge station 2-06,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N06-RLS,FLD-GAU-R2-N06,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N06-BAT,FLD-GAU-R2-N06,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N07,FLD-GAU-R2,Gauge station 2-07,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N07-RLS,FLD-GAU-R2-N07,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N07-BAT,FLD-GAU-R2-N07,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N08,FLD-GAU-R2,Gauge station 2-08,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N08-RLS,FLD-GAU-R2-N08,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N08-BAT,FLD-GAU-R2-N08,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N09,FLD-GAU-R2,Gauge station 2-09,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N09-RLS,FLD-GAU-R2-N09,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N09-BAT,FLD-GAU-R2-N09,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N10,FLD-GAU-R2,Gauge station 2-10,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N10-RLS,FLD-GAU-R2-N10,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N10-BAT,FLD-GAU-R2-N10,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N11,FLD-GAU-R2,Gauge station 2-11,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N11-RLS,FLD-GAU-R2-N11,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N11-BAT,FLD-GAU-R2-N11,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N12,FLD-GAU-R2,Gauge station 2-12,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N12-RLS,FLD-GAU-R2-N12,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N12-BAT,FLD-GAU-R2-N12,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N13,FLD-GAU-R2,Gauge station 2-13,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N13-RLS,FLD-GAU-R2-N13,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N13-BAT,FLD-GAU-R2-N13,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N14,FLD-GAU-R2,Gauge station 2-14,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N14-RLS,FLD-GAU-R2-N14,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N14-BAT,FLD-GAU-R2-N14,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N15,FLD-GAU-R2,Gauge station 2-15,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N15-RLS,FLD-GAU-R2-N15,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N15-BAT,FLD-GAU-R2-N15,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R2-N16,FLD-GAU-R2,Gauge station 2-16,sub_unit,SEN,1,0,,planned
+FLD-GAU-R2-N16-RLS,FLD-GAU-R2-N16,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R2-N16-BAT,FLD-GAU-R2-N16,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3,FLD-GAU,Gauge cluster 3,unit,SEN,1,0,SEN-05,delivered
+PWS-SOL-R3,PWS-SOL,Solar kit gauge cluster 3,part,PWR,2,62999,PWR-05,in_progress
+ENC-LPS-R3,ENC-LPS,Lightning protection gauge cluster 3,part,ENC,1,332500,ENC-05,planned
+TLM-GW-R3,TLM-001,Cluster gateway gauges 3,part,SEN,1,665000,SEN-10,planned
+FLD-GAU-R3-N01,FLD-GAU-R3,Gauge station 3-01,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N01-RLS,FLD-GAU-R3-N01,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N01-BAT,FLD-GAU-R3-N01,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N02,FLD-GAU-R3,Gauge station 3-02,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N02-RLS,FLD-GAU-R3-N02,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N02-BAT,FLD-GAU-R3-N02,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N03,FLD-GAU-R3,Gauge station 3-03,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N03-RLS,FLD-GAU-R3-N03,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N03-BAT,FLD-GAU-R3-N03,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N04,FLD-GAU-R3,Gauge station 3-04,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N04-RLS,FLD-GAU-R3-N04,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N04-BAT,FLD-GAU-R3-N04,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N05,FLD-GAU-R3,Gauge station 3-05,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N05-RLS,FLD-GAU-R3-N05,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N05-BAT,FLD-GAU-R3-N05,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N06,FLD-GAU-R3,Gauge station 3-06,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N06-RLS,FLD-GAU-R3-N06,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N06-BAT,FLD-GAU-R3-N06,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N07,FLD-GAU-R3,Gauge station 3-07,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N07-RLS,FLD-GAU-R3-N07,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N07-BAT,FLD-GAU-R3-N07,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N08,FLD-GAU-R3,Gauge station 3-08,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N08-RLS,FLD-GAU-R3-N08,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N08-BAT,FLD-GAU-R3-N08,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N09,FLD-GAU-R3,Gauge station 3-09,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N09-RLS,FLD-GAU-R3-N09,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N09-BAT,FLD-GAU-R3-N09,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N10,FLD-GAU-R3,Gauge station 3-10,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N10-RLS,FLD-GAU-R3-N10,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N10-BAT,FLD-GAU-R3-N10,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N11,FLD-GAU-R3,Gauge station 3-11,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N11-RLS,FLD-GAU-R3-N11,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N11-BAT,FLD-GAU-R3-N11,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N12,FLD-GAU-R3,Gauge station 3-12,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N12-RLS,FLD-GAU-R3-N12,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N12-BAT,FLD-GAU-R3-N12,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N13,FLD-GAU-R3,Gauge station 3-13,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N13-RLS,FLD-GAU-R3-N13,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N13-BAT,FLD-GAU-R3-N13,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N14,FLD-GAU-R3,Gauge station 3-14,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N14-RLS,FLD-GAU-R3-N14,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N14-BAT,FLD-GAU-R3-N14,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N15,FLD-GAU-R3,Gauge station 3-15,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N15-RLS,FLD-GAU-R3-N15,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N15-BAT,FLD-GAU-R3-N15,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R3-N16,FLD-GAU-R3,Gauge station 3-16,sub_unit,SEN,1,0,,planned
+FLD-GAU-R3-N16-RLS,FLD-GAU-R3-N16,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R3-N16-BAT,FLD-GAU-R3-N16,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4,FLD-GAU,Gauge cluster 4,unit,SEN,1,0,SEN-05,delivered
+PWS-SOL-R4,PWS-SOL,Solar kit gauge cluster 4,part,PWR,2,62999,PWR-05,in_progress
+ENC-LPS-R4,ENC-LPS,Lightning protection gauge cluster 4,part,ENC,1,332500,ENC-05,planned
+TLM-GW-R4,TLM-001,Cluster gateway gauges 4,part,SEN,1,665000,SEN-10,planned
+FLD-GAU-R4-N01,FLD-GAU-R4,Gauge station 4-01,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N01-RLS,FLD-GAU-R4-N01,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N01-BAT,FLD-GAU-R4-N01,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N02,FLD-GAU-R4,Gauge station 4-02,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N02-RLS,FLD-GAU-R4-N02,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N02-BAT,FLD-GAU-R4-N02,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N03,FLD-GAU-R4,Gauge station 4-03,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N03-RLS,FLD-GAU-R4-N03,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N03-BAT,FLD-GAU-R4-N03,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N04,FLD-GAU-R4,Gauge station 4-04,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N04-RLS,FLD-GAU-R4-N04,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N04-BAT,FLD-GAU-R4-N04,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N05,FLD-GAU-R4,Gauge station 4-05,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N05-RLS,FLD-GAU-R4-N05,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N05-BAT,FLD-GAU-R4-N05,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N06,FLD-GAU-R4,Gauge station 4-06,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N06-RLS,FLD-GAU-R4-N06,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N06-BAT,FLD-GAU-R4-N06,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N07,FLD-GAU-R4,Gauge station 4-07,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N07-RLS,FLD-GAU-R4-N07,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N07-BAT,FLD-GAU-R4-N07,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N08,FLD-GAU-R4,Gauge station 4-08,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N08-RLS,FLD-GAU-R4-N08,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N08-BAT,FLD-GAU-R4-N08,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N09,FLD-GAU-R4,Gauge station 4-09,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N09-RLS,FLD-GAU-R4-N09,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N09-BAT,FLD-GAU-R4-N09,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N10,FLD-GAU-R4,Gauge station 4-10,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N10-RLS,FLD-GAU-R4-N10,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N10-BAT,FLD-GAU-R4-N10,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N11,FLD-GAU-R4,Gauge station 4-11,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N11-RLS,FLD-GAU-R4-N11,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N11-BAT,FLD-GAU-R4-N11,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N12,FLD-GAU-R4,Gauge station 4-12,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N12-RLS,FLD-GAU-R4-N12,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N12-BAT,FLD-GAU-R4-N12,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N13,FLD-GAU-R4,Gauge station 4-13,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N13-RLS,FLD-GAU-R4-N13,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N13-BAT,FLD-GAU-R4-N13,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N14,FLD-GAU-R4,Gauge station 4-14,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N14-RLS,FLD-GAU-R4-N14,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N14-BAT,FLD-GAU-R4-N14,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N15,FLD-GAU-R4,Gauge station 4-15,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N15-RLS,FLD-GAU-R4-N15,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N15-BAT,FLD-GAU-R4-N15,Battery cell,part,SEN,12,6300,,planned
+FLD-GAU-R4-N16,FLD-GAU-R4,Gauge station 4-16,sub_unit,SEN,1,0,,planned
+FLD-GAU-R4-N16-RLS,FLD-GAU-R4-N16,Radar level sensor,part,SEN,2,133000,,planned
+FLD-GAU-R4-N16-BAT,FLD-GAU-R4-N16,Battery cell,part,SEN,12,6300,,planned
+FLD-AWS-R1,FLD-AWS,Weather cluster 1,unit,SEN,1,0,SEN-07,ordered
+PWS-SOL-G1,PWS-SOL,Solar kit weather cluster 1,part,PWR,2,84000,PWR-05,in_progress
+ENC-LPS-G1,ENC-LPS,Lightning protection weather cluster 1,part,ENC,1,472499,ENC-05,planned
+TLM-GW-G1,TLM-001,Cluster gateway weather 1,part,SEN,1,665000,SEN-10,planned
+FLD-AWS-R1-N01,FLD-AWS-R1,Weather station 1-01,sub_unit,SEN,1,0,,planned
+FLD-AWS-R1-N01-RLS,FLD-AWS-R1-N01,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R1-N01-ANM,FLD-AWS-R1-N01,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R1-N01-BAT,FLD-AWS-R1-N01,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R1-N02,FLD-AWS-R1,Weather station 1-02,sub_unit,SEN,1,0,,planned
+FLD-AWS-R1-N02-RLS,FLD-AWS-R1-N02,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R1-N02-ANM,FLD-AWS-R1-N02,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R1-N02-BAT,FLD-AWS-R1-N02,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R1-N03,FLD-AWS-R1,Weather station 1-03,sub_unit,SEN,1,0,,planned
+FLD-AWS-R1-N03-RLS,FLD-AWS-R1-N03,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R1-N03-ANM,FLD-AWS-R1-N03,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R1-N03-BAT,FLD-AWS-R1-N03,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R1-N04,FLD-AWS-R1,Weather station 1-04,sub_unit,SEN,1,0,,planned
+FLD-AWS-R1-N04-RLS,FLD-AWS-R1-N04,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R1-N04-ANM,FLD-AWS-R1-N04,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R1-N04-BAT,FLD-AWS-R1-N04,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R1-N05,FLD-AWS-R1,Weather station 1-05,sub_unit,SEN,1,0,,planned
+FLD-AWS-R1-N05-RLS,FLD-AWS-R1-N05,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R1-N05-ANM,FLD-AWS-R1-N05,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R1-N05-BAT,FLD-AWS-R1-N05,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R1-N06,FLD-AWS-R1,Weather station 1-06,sub_unit,SEN,1,0,,planned
+FLD-AWS-R1-N06-RLS,FLD-AWS-R1-N06,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R1-N06-ANM,FLD-AWS-R1-N06,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R1-N06-BAT,FLD-AWS-R1-N06,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R1-N07,FLD-AWS-R1,Weather station 1-07,sub_unit,SEN,1,0,,planned
+FLD-AWS-R1-N07-RLS,FLD-AWS-R1-N07,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R1-N07-ANM,FLD-AWS-R1-N07,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R1-N07-BAT,FLD-AWS-R1-N07,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R1-N08,FLD-AWS-R1,Weather station 1-08,sub_unit,SEN,1,0,,planned
+FLD-AWS-R1-N08-RLS,FLD-AWS-R1-N08,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R1-N08-ANM,FLD-AWS-R1-N08,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R1-N08-BAT,FLD-AWS-R1-N08,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R2,FLD-AWS,Weather cluster 2,unit,SEN,1,0,SEN-07,ordered
+PWS-SOL-G2,PWS-SOL,Solar kit weather cluster 2,part,PWR,2,84000,PWR-05,in_progress
+ENC-LPS-G2,ENC-LPS,Lightning protection weather cluster 2,part,ENC,1,472499,ENC-05,planned
+TLM-GW-G2,TLM-001,Cluster gateway weather 2,part,SEN,1,665000,SEN-10,planned
+FLD-AWS-R2-N01,FLD-AWS-R2,Weather station 2-01,sub_unit,SEN,1,0,,planned
+FLD-AWS-R2-N01-RLS,FLD-AWS-R2-N01,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R2-N01-ANM,FLD-AWS-R2-N01,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R2-N01-BAT,FLD-AWS-R2-N01,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R2-N02,FLD-AWS-R2,Weather station 2-02,sub_unit,SEN,1,0,,planned
+FLD-AWS-R2-N02-RLS,FLD-AWS-R2-N02,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R2-N02-ANM,FLD-AWS-R2-N02,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R2-N02-BAT,FLD-AWS-R2-N02,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R2-N03,FLD-AWS-R2,Weather station 2-03,sub_unit,SEN,1,0,,planned
+FLD-AWS-R2-N03-RLS,FLD-AWS-R2-N03,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R2-N03-ANM,FLD-AWS-R2-N03,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R2-N03-BAT,FLD-AWS-R2-N03,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R2-N04,FLD-AWS-R2,Weather station 2-04,sub_unit,SEN,1,0,,planned
+FLD-AWS-R2-N04-RLS,FLD-AWS-R2-N04,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R2-N04-ANM,FLD-AWS-R2-N04,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R2-N04-BAT,FLD-AWS-R2-N04,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R2-N05,FLD-AWS-R2,Weather station 2-05,sub_unit,SEN,1,0,,planned
+FLD-AWS-R2-N05-RLS,FLD-AWS-R2-N05,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R2-N05-ANM,FLD-AWS-R2-N05,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R2-N05-BAT,FLD-AWS-R2-N05,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R2-N06,FLD-AWS-R2,Weather station 2-06,sub_unit,SEN,1,0,,planned
+FLD-AWS-R2-N06-RLS,FLD-AWS-R2-N06,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R2-N06-ANM,FLD-AWS-R2-N06,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R2-N06-BAT,FLD-AWS-R2-N06,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R2-N07,FLD-AWS-R2,Weather station 2-07,sub_unit,SEN,1,0,,planned
+FLD-AWS-R2-N07-RLS,FLD-AWS-R2-N07,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R2-N07-ANM,FLD-AWS-R2-N07,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R2-N07-BAT,FLD-AWS-R2-N07,Sensor cable,part,SEN,16,6300,,planned
+FLD-AWS-R2-N08,FLD-AWS-R2,Weather station 2-08,sub_unit,SEN,1,0,,planned
+FLD-AWS-R2-N08-RLS,FLD-AWS-R2-N08,Rain gauge,part,SEN,2,105000,,planned
+FLD-AWS-R2-N08-ANM,FLD-AWS-R2-N08,Anemometer,part,SEN,4,315000,,planned
+FLD-AWS-R2-N08-BAT,FLD-AWS-R2-N08,Sensor cable,part,SEN,16,6300,,planned
+FAP-001,FEWS-001,Forecasting & alerting platform,subsystem,DSP,1,0,DSP-08,planned
+FAP-ING,FAP-001,Ingestion baseline,assembly,DSP,1,0,DSP-04,installed
+FAP-FCS,FAP-001,Forecast scheduling engine,assembly,DSP,1,0,DSP-05,planned
+FAP-DASH,FAP-001,Operations dashboards,assembly,DSP,1,0,DSP-06,in_progress
+FAP-ALRT,FAP-001,Public alert portal & SMS,assembly,DSP,1,0,DSP-07,planned
+HYD-001,FEWS-001,Forecasting readiness,subsystem,HYD,1,0,HYD-05,planned
+HYD-MOD,HYD-001,Flood model calibration,assembly,HYD,1,0,HYD-02,in_progress
+HYD-PROT,HYD-001,District alert protocols,assembly,HYD,1,0,HYD-03,installed
+HYD-DRILL,HYD-001,Monsoon mock drill,assembly,HYD,1,0,HYD-04,planned
+TLM-SIM-99,TLM-CGW-09,SIM & modem lot,part,SEN,96,38000,,delivered

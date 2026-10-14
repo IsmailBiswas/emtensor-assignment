@@ -1,0 +1,62 @@
+researcher_id,full_name,dept_id,role,email,project_allocation_pct,monthly_cost_inr,joined_on,left_on,status
+R001,Farhan Chatterjee,CVL,Professor & Dept Lead,farhan.chatterjee1@vit-shakti.ac.in,20,0,2025-10-01,,active
+R002,Divya Khan,CVL,Project Engineer,divya.khan2@vit-shakti.ac.in,100,85000,2025-10-16,,active
+R003,Siddharth Chatterjee,CVL,Co-Investigator,siddharth.chatterjee3@vit-shakti.ac.in,20,0,2025-11-30,,active
+R004,Venkat Sharma,CVL,Project Engineer,venkat.sharma4@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R005,Gurleen Pillai,CVL,Research Scholar,gurleen.pillai5@vit-shakti.ac.in,30,42000,2025-10-16,,active
+R006,Rahul Iyer,CVL,Technician,rahul.iyer6@vit-shakti.ac.in,100,45000,2025-10-16,,active
+R007,Ananya Joshi,CVL,Research Scholar,ananya.joshi7@vit-shakti.ac.in,30,42000,2025-10-01,,active
+R008,Farhan Banerjee,PWR,Professor & Dept Lead,farhan.banerjee8@vit-shakti.ac.in,50,0,2025-10-01,,active
+R009,Sameer Sharma,PWR,Co-Investigator,sameer.sharma9@vit-shakti.ac.in,30,0,2025-11-30,,active
+R010,Divya Singh,PWR,Project Engineer,divya.singh10@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R011,Harpreet Das,PWR,Research Scholar,harpreet.das11@vit-shakti.ac.in,20,42000,2025-10-16,,active
+R012,Ishita Joshi,PWR,Project Engineer,ishita.joshi12@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R013,Vikram Singh,PWR,Co-Investigator,vikram.singh13@vit-shakti.ac.in,20,0,2025-10-16,,active
+R014,Suresh Mehta,PWR,Project Engineer,suresh.mehta14@vit-shakti.ac.in,100,85000,2025-10-31,,active
+R015,Rajesh Kulkarni,PWR,Research Scholar,rajesh.kulkarni15@vit-shakti.ac.in,40,42000,2025-10-01,,active
+R016,Ishita Das,ENC,Professor & Dept Lead,ishita.das16@vit-shakti.ac.in,30,0,2025-10-01,,active
+R017,Pranav Pillai,ENC,Project Engineer,pranav.pillai17@vit-shakti.ac.in,100,85000,2025-10-31,,active
+R018,Farhan Patel,ENC,Research Scholar,farhan.patel18@vit-shakti.ac.in,20,42000,2026-01-29,,active
+R019,Anjali Fernandes,ENC,Technician,anjali.fernandes19@vit-shakti.ac.in,100,45000,2025-10-16,,active
+R020,Ananya Iyer,ENC,Technician,ananya.iyer20@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R021,Imran Rao,ENC,Project Engineer,imran.rao21@vit-shakti.ac.in,100,85000,2026-01-29,2026-05-29,exited
+R022,Venkat Das,ENC,Research Scholar,venkat.das22@vit-shakti.ac.in,30,42000,2025-10-16,,active
+R023,Priya Mehta,ENC,Project Engineer,priya.mehta23@vit-shakti.ac.in,100,85000,2025-11-30,,active
+R024,Tanvi Singh,SEN,Professor & Dept Lead,tanvi.singh24@vit-shakti.ac.in,30,0,2025-10-01,,active
+R025,Meera Khan,SEN,Research Scholar,meera.khan25@vit-shakti.ac.in,50,42000,2025-10-16,,active
+R026,Revathi Patel,SEN,Research Scholar,revathi.patel26@vit-shakti.ac.in,40,42000,2025-10-31,,active
+R027,Farhan Fernandes,SEN,Research Scholar,farhan.fernandes27@vit-shakti.ac.in,50,42000,2025-11-30,,active
+R028,Aarav Banerjee,SEN,Research Scholar,aarav.banerjee28@vit-shakti.ac.in,30,42000,2025-10-31,,active
+R029,Bhavna Qureshi,SEN,Project Engineer,bhavna.qureshi29@vit-shakti.ac.in,100,85000,2025-11-30,,on_leave
+R030,Manish Bhat,SEN,Technician,manish.bhat30@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R031,Revathi Banerjee,SEN,Co-Investigator,revathi.banerjee31@vit-shakti.ac.in,20,0,2025-10-16,,active
+R032,Zoya Fernandes,SEN,Project Engineer,zoya.fernandes32@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R033,Abhishek Bhat,SEN,Project Engineer,abhishek.bhat33@vit-shakti.ac.in,100,85000,2025-11-30,,active
+R034,Harpreet Qureshi,SEN,Research Scholar,harpreet.qureshi34@vit-shakti.ac.in,50,42000,2025-10-01,,active
+R035,Joseph Nair,SEN,Project Engineer,joseph.nair35@vit-shakti.ac.in,100,85000,2025-11-30,,active
+R036,Deepak Naidu,DSP,Professor & Dept Lead,deepak.naidu36@vit-shakti.ac.in,40,0,2025-10-01,,active
+R037,Neha Chatterjee,DSP,Project Engineer,neha.chatterjee37@vit-shakti.ac.in,100,85000,2025-10-16,,active
+R038,Bhavna Sharma,DSP,Technician,bhavna.sharma38@vit-shakti.ac.in,100,45000,2025-10-16,,active
+R039,Farhan Banerjee,DSP,Research Scholar,farhan.banerjee39@vit-shakti.ac.in,40,42000,2025-10-16,,active
+R040,Vikram Qureshi,DSP,Research Scholar,vikram.qureshi40@vit-shakti.ac.in,50,42000,2025-11-30,,active
+R041,Karthik Naidu,DSP,Research Scholar,karthik.naidu41@vit-shakti.ac.in,40,42000,2025-10-31,,active
+R042,Imran Naidu,DSP,Project Engineer,imran.naidu42@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R043,Revathi Joshi,DSP,Research Scholar,revathi.joshi43@vit-shakti.ac.in,30,42000,2025-10-31,,active
+R044,Ayesha Pillai,DSP,Technician,ayesha.pillai44@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R045,Arjun Iyer,DSP,Research Scholar,arjun.iyer45@vit-shakti.ac.in,20,42000,2025-11-30,,active
+R046,Abhishek Singh,DSP,Technician,abhishek.singh46@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R047,Bhavna Menon,HYD,Professor & Dept Lead,bhavna.menon47@vit-shakti.ac.in,30,0,2025-10-01,,active
+R048,Aarav Kulkarni,HYD,Research Scholar,aarav.kulkarni48@vit-shakti.ac.in,30,42000,2025-10-01,,active
+R049,Ganesh Gupta,HYD,Research Scholar,ganesh.gupta49@vit-shakti.ac.in,30,42000,2026-01-29,,active
+R050,Bhavna Bhat,HYD,Project Engineer,bhavna.bhat50@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R051,Venkat Sharma,HYD,Research Scholar,venkat.sharma51@vit-shakti.ac.in,20,42000,2025-10-01,,active
+R052,Mary Nair,HYD,Project Engineer,mary.nair52@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R053,Bhavna Naidu,HYD,Project Engineer,bhavna.naidu53@vit-shakti.ac.in,100,85000,2025-10-16,,active
+R054,Farhan Sharma,HYD,Research Scholar,farhan.sharma54@vit-shakti.ac.in,40,42000,2025-10-16,,active
+R055,Lakshmi Khan,PUR,Professor & Dept Lead,lakshmi.khan55@vit-shakti.ac.in,50,0,2025-10-01,,active
+R056,Karthik Iyer,PUR,Project Engineer,karthik.iyer56@vit-shakti.ac.in,100,85000,2025-10-16,,active
+R057,Pranav Naidu,PUR,Research Scholar,pranav.naidu57@vit-shakti.ac.in,40,42000,2025-11-30,,active
+R058,Priya Qureshi,PMU,Principal Investigator,priya.qureshi58@vit-shakti.ac.in,40,0,2025-10-01,,active
+R059,Nikhil Rao,PMU,Technician,nikhil.rao59@vit-shakti.ac.in,100,45000,2025-10-16,,active
+R060,Farhan Das,PMU,Research Scholar,farhan.das60@vit-shakti.ac.in,30,42000,2025-10-16,,active
+R061,Rajesh Mehta,PMU,Technician,rajesh.mehta61@vit-shakti.ac.in,100,45000,2026-01-29,,active

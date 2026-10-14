@@ -1,0 +1,9 @@
+dept_id,dept_name,scope,total_budget_inr,head_researcher_id
+CVL,Civil & Sites,"Control centre, site foundations, fire safety, security",18300000,R001
+PWR,Power Systems,"Grid supply, UPS, DG backup, solar kits for clusters",30300000,R008
+ENC,Masts & Enclosures,"Fabrication yard, masts, enclosures, lightning protection",33800000,R016
+SEN,Sensor Networks,"River gauges, weather stations, telemetry",97800000,R024
+DSP,Data & Software Platform,"Data centre, forecasting, alerting, public dashboard",35800000,R036
+HYD,Hydrology & Forecasting,"Model calibration, alert protocols, mock drills, acceptance",20000000,R047
+PUR,Procurement,"Tendering, evaluation, award",4300000,R055
+PMU,Project Management Unit,"Governance, NDMA reporting, contingency",17500000,R058

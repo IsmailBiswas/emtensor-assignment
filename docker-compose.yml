@@ -1,0 +1,17 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "18180:8000"
+    environment:
+      APP_DATA_DIR: /app/data
+      APP_CORS_ORIGINS: '["http://localhost:5173","http://localhost:13130","http://localhost"]'
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "13130:80"
+    depends_on:
+      - backend

@@ -1,0 +1,59 @@
+task_id,parent_task_id,dept_id,task_name,component_id,owner_researcher_id,planned_start,planned_end,actual_start,actual_end,status
+WP-CVL,,CVL,Civil & Sites work package,,R001,,,,,
+WP-PWR,,PWR,Power Systems work package,,R008,,,,,
+WP-ENC,,ENC,Masts & Enclosures work package,,R016,,,,,
+WP-SEN,,SEN,Sensor Networks work package,,R024,,,,,
+WP-DSP,,DSP,Data & Software Platform work package,,R036,,,,,
+WP-HYD,,HYD,Hydrology & Forecasting work package,,R047,,,,,
+WP-PUR,,PUR,Procurement work package,,R055,,,,,
+WP-PMU,,PMU,Project Management Unit work package,,R058,,,,,
+PMU-01,WP-PMU,PMU,Project board constituted,FEWS-001,R058,2025-10-01,2025-10-21,2025-10-10,2025-11-01,completed
+PMU-02,WP-PMU,PMU,Quarterly reporting to NDMA,FEWS-001,R058,2025-12-30,2027-03-15,2025-12-30,,in_progress
+PMU-03,WP-PMU,PMU,Utilisation certificate for tranche 1,FEWS-001,R060,2026-02-28,2026-03-30,2026-03-11,2026-04-16,completed
+PMU-04,WP-PMU,PMU,Go-live & handover to SDMA operations,FEWS-001,R060,2027-02-18,2027-03-15,,,not_started
+PUR-01,WP-PUR,PUR,Vendor empanelment,FEWS-001,R057,2025-10-01,2025-11-15,2025-11-02,2025-12-19,completed
+PUR-02,WP-PUR,PUR,Tender publication (sensors & telemetry),FEWS-001,R055,2025-11-15,2025-12-15,2025-12-20,2026-01-19,completed
+PUR-03,WP-PUR,PUR,Evaluation & award,FEWS-001,R056,2025-12-15,2026-01-24,2026-01-20,2026-03-07,completed
+CVL-01,WP-CVL,CVL,Site survey across the basin,CC-001,R002,2025-10-01,2025-10-31,2025-10-02,2025-11-06,completed
+CVL-02,WP-CVL,CVL,Control centre design approval,CC-001,R001,2025-10-31,2025-12-15,2025-11-07,2025-12-22,completed
+CVL-03,WP-CVL,CVL,Civil contract award,CC-001,R001,2025-12-15,2026-01-24,2025-12-23,2026-02-07,completed
+CVL-04,WP-CVL,CVL,Control centre & site foundations,CC-FND,R001,2026-01-24,2026-04-24,2026-02-08,2026-05-31,completed
+CVL-05,WP-CVL,CVL,Fire safety system,CC-FIRE,R001,2026-04-24,2026-06-13,2026-06-01,2026-07-25,completed
+CVL-06,WP-CVL,CVL,Security & CCTV,CC-SEC,R001,2026-04-29,2026-05-29,2026-06-01,2026-07-07,completed
+CVL-07,WP-CVL,CVL,Civil completion certificate,CC-001,R007,2026-06-18,2026-07-03,2026-07-26,2026-08-10,completed
+PWR-01,WP-PWR,PWR,Power requirement study,PWS-001,R009,2025-10-16,2025-11-25,2025-10-20,2025-11-28,completed
+PWR-02,WP-PWR,PWR,Grid supply upgrade,PWS-SUB,R011,2025-11-30,2026-03-30,2025-12-08,2026-05-03,completed
+PWR-03,WP-PWR,PWR,UPS procurement,PWS-UPS,R012,2025-11-30,2026-02-28,2025-11-29,2026-03-23,completed
+PWR-04,WP-PWR,PWR,UPS commissioning,PWS-UPS,R014,2026-04-09,2026-05-19,2026-06-01,2026-07-09,completed
+PWR-05,WP-PWR,PWR,Solar power kits for clusters,PWS-SOL,R010,2026-05-29,2026-07-13,2026-08-11,,in_progress
+PWR-06,WP-PWR,PWR,DG backup set,PWS-DG,R011,2026-03-30,2026-06-28,2026-05-04,2026-08-14,completed
+PWR-07,WP-PWR,PWR,Power audit,PWS-001,R013,2026-07-28,2026-08-17,2026-08-16,2026-09-10,completed
+ENC-01,WP-ENC,ENC,Environmental loading study,ENC-001,R016,2025-10-16,2025-11-30,2025-10-20,2025-12-08,completed
+ENC-02,WP-ENC,ENC,Fabrication yard equipment procurement,ENC-YARD,R021,2025-12-10,2026-04-09,2025-12-22,2026-05-20,completed
+ENC-03,WP-ENC,ENC,Mast erection,ENC-MST,R017,2026-04-19,2026-06-18,2026-06-01,2026-08-01,completed
+ENC-04,WP-ENC,ENC,Enclosure fabrication,ENC-BOX,R017,2026-06-18,2026-07-28,2026-08-02,,in_progress
+ENC-05,WP-ENC,ENC,Lightning protection per cluster,ENC-LPS,R016,2026-07-08,2026-08-22,,,not_started
+ENC-06,WP-ENC,ENC,Enclosure & mast inspection,ENC-001,R022,2026-08-27,2026-09-21,,,not_started
+SEN-01,WP-SEN,SEN,Network design freeze,FLD-001,R026,2025-10-01,2025-11-30,2025-10-07,2025-12-13,completed
+SEN-02,WP-SEN,SEN,Sensor tender evaluation,FLD-001,R026,2025-12-15,2026-01-29,2026-03-08,2026-05-03,completed
+SEN-03,WP-SEN,SEN,River gauge delivery,FLD-GAU,R028,2026-04-19,2026-06-18,2026-05-04,2026-07-11,In Progress
+SEN-04,WP-SEN,SEN,Gauge clusters 1-2 installation,FLD-GAU,R031,2026-06-28,2026-08-07,,,not_started
+SEN-05,WP-SEN,SEN,Gauge clusters 3-4 installation,FLD-GAU,R035,2026-08-07,2026-09-16,,,not_started
+SEN-06,WP-SEN,SEN,Weather station delivery,FLD-AWS,R033,2026-05-29,2026-08-27,2026-05-31,,in_progress
+SEN-07,WP-SEN,SEN,Weather station installation,FLD-AWS,R027,2026-09-06,2026-10-21,,,not_started
+SEN-08,WP-SEN,SEN,Telemetry design,TLM-001,R025,2025-11-30,2026-01-14,2025-11-16,2026-02-08,completed
+SEN-09,WP-SEN,SEN,Gateway procurement,TLM-001,R035,2026-01-19,2026-04-29,2026-03-08,2026-06-13,completed
+SEN-10,WP-SEN,SEN,Telemetry installation & validation,TLM-001,R025,2026-07-28,2026-09-26,,,not_started
+DSP-01,WP-DSP,DSP,Data centre architecture,DC-001,R041,2025-10-31,2025-12-15,2025-11-05,2025-12-17,completed
+DSP-02,WP-DSP,DSP,Server procurement,DC-001,R040,2025-12-20,2026-04-19,2026-03-08,2026-08-07,completed
+DSP-03,WP-DSP,DSP,Data centre deployment,DC-001,R045,2026-08-27,2026-10-11,,,not_started
+DSP-04,WP-DSP,DSP,Ingestion baseline,FAP-ING,R037,2026-06-08,2026-08-07,2026-06-18,2026-09-01,completed
+DSP-05,WP-DSP,DSP,Forecast scheduling engine,FAP-FCS,R037,2026-08-27,2026-10-06,,,not_started
+DSP-06,WP-DSP,DSP,Operations dashboards,FAP-DASH,R039,2026-08-27,2026-10-16,2026-09-07,,in_progress
+DSP-07,WP-DSP,DSP,Public alert portal & SMS,FAP-ALRT,R037,2026-10-06,2026-12-05,,,not_started
+DSP-08,WP-DSP,DSP,Cyber-security audit,FAP-001,R042,2026-12-05,2027-01-04,,,not_started
+HYD-01,WP-HYD,HYD,Hydrological requirements,HYD-001,R049,2025-10-31,2025-12-30,2025-11-06,2026-01-15,completed
+HYD-02,WP-HYD,HYD,Flood model calibration,HYD-MOD,R052,2026-01-29,2026-09-26,2026-01-31,,in_progress
+HYD-03,WP-HYD,HYD,District alert protocols,HYD-PROT,R051,2026-01-29,2026-08-17,2026-02-04,2026-08-15,completed
+HYD-04,WP-HYD,HYD,Monsoon mock drill,HYD-DRILL,R052,2026-11-25,2026-12-25,,,not_started
+HYD-05,WP-HYD,HYD,Operational acceptance,HYD-001,R048,2026-12-30,2027-02-13,,,not_started
