@@ -1,12 +1,26 @@
+from contextlib import asynccontextmanager
+from collections.abc import AsyncIterator
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.adapters.in_memory_store import InMemoryProjectStore
+from app.api.deps import get_project_store
 from app.api.routes import api_router
 from app.core.config import settings
 
 
+@asynccontextmanager
+async def lifespan(_app: FastAPI) -> AsyncIterator[None]:
+    store = get_project_store()
+    if isinstance(store, InMemoryProjectStore):
+        # Blocking CSV parse off the event loop via to_thread inside reload.
+        await store.reload()
+    yield
+
+
 def create_app() -> FastAPI:
-    app = FastAPI(title=settings.app_name)
+    app = FastAPI(title=settings.app_name, lifespan=lifespan)
     app.add_middleware(
         CORSMiddleware,
         allow_origins=settings.cors_origins,

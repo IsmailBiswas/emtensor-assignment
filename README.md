@@ -1,6 +1,6 @@
 # Brahmaputra Basin Flood Early-Warning Network - Project Status
 
-Scaffold for the take-home assignment. Spec lives under `docs/`; CSV source of truth is `data/` at the repo root.
+Scaffold for the take-home assignment: CSV source of truth is `data/` at the repo root.
 
 ## Data loading approach
 
@@ -14,17 +14,23 @@ A dedicated **refresh API** reloads the files from `data/` into memory when the 
 - The dataset is small (thousands of rows), so an in-memory store is fast, simple, and easy to review.
 - A refresh endpoint covers updates when files on disk change, in line with the optional CSV watcher stretch.
 
+
+
 ## Quick start
 
 ```bash
 docker compose up --build
 ```
 
-- UI: http://localhost:13130  
-- API: http://localhost:18180/api/health  
-- Docs: http://localhost:18180/docs  
+- UI: [http://localhost:13130](http://localhost:13130)  
+- API: [http://localhost:18180/api/health](http://localhost:18180/api/health)  
+- Docs: [http://localhost:18180/docs](http://localhost:18180/docs)
+
+
 
 ## Local development
+
+
 
 ### Backend
 
@@ -35,6 +41,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 APP_DATA_DIR=../data uvicorn app.main:app --reload --port 8000
 ```
+
+
 
 ### Frontend
 
@@ -56,3 +64,4 @@ frontend/       # React + Vite + shadcn/ui
 docker-compose.yml
 AGENTS.md
 ```
+
